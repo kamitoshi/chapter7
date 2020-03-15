@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height:400px;
+  padding:20px;
+  background-image:url(img/mv.jpg);
+  background-size: cover;
+  background-position:bottom;
+}
+.header-title{
+  color:gray;
+}
+main{
+  width: 840px;
+  margin:50px auto;
+}
+.main-content{
+  padding: 30px 0;
+  border-bottom:solid 1px #eee;
+}
+.main-content:first-child{
+  padding-top:0;
+}
+.main-content-logo{
+  margin-bottom:20px;
+}
